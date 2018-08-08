@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Aplicatie TSX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- In the head -->
+    <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.1/css/calcite-web.min.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.8/esri/css/main.css">
+    <style>
+        html,
+        body,
+        #root{
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="root">
+    </div>
+
+    <script>
+        var dojoConfig = {
+            has: {
+                "esri-promise-compatibility": 1,
+                "esri-webpack": 1,                // a flag used internally by the ArcGIS API for JavaScript
+                "esri-featurelayer-webgl": 1
+            },
+            async: true
+        };
+    </script>
+    <script src="https://js.arcgis.com/4.8/"></script>
+    <!--load app-->
+    <script>
+        require(['app/dist/index.bundle.js'], function (main) { });
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+html,
+body {
+    height: 100%;
+    width: 100;
+    margin:0;
+    padding:0;
+}
+
+.top-nav {
+    background-color: #9A599C !important;
+}
+
+.top-nav-title,
+.top-nav-link {
+    color: #fefefe !important;
+}
+
+.grid-container.apps {
+    margin-top: 2.5rem;
+}

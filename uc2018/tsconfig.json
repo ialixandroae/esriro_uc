@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "jsx": "react",
+        "jsxFactory": "React.createElement",
+        "target": "es5",
+        "experimentalDecorators": true,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "types": [
+            "arcgis-js-api",
+            "react",
+            "react-dom"
+        ],
+        "typeRoots": [
+            "./node_modules/@types"
+        ]
+    },
+    "include": [
+        "./src/apps/app3/app/",
+        "./src/apps/app4/app/**/*.*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

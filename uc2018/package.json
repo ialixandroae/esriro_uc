@@ -1,0 +1,38 @@
+{
+  "name": "uc2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_app3": "webpack -p --config ./webpack.app3.config.prod.js",
+    "build_app4": "webpack -p --config ./webpack.app4.config.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/arcgis-js-api": "4.8",
+    "@types/dojo": "^1.9.40",
+    "@types/react": "^16.3.17",
+    "@types/react-dom": "^16.0.6",
+    "awesome-typescript-loader": "^3.4.1",
+    "body-parser": "^1.18.3",
+    "browser-sync": "^2.24.6",
+    "css-loader": "^0.28.7",
+    "express": "^4.16.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "style-loader": "^0.19.1",
+    "ts-loader": "^0.8.1",
+    "typescript": "^2.9.2",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
